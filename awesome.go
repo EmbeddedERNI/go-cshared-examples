@@ -36,4 +36,6 @@ func Log(msg string) int {
 	return count
 }
 
-func main() {}
+func main() {
+	fmt.Println(Add(1, 2))
+}
